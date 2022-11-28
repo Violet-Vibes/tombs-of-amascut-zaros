@@ -37,10 +37,15 @@ public class LightPuzzleSolver implements PluginLifecycleComponent
 	private static final int GAME_OBJECT_LIGHT_ENABLED = 45384;
 
 	private static final Point[] SCENE_COORD_STARTS = {
-		new Point(36, 56),
-		new Point(36, 44),
-		new Point(53, 56),
-		new Point(53, 44),
+		new Point(53,56),
+		new Point(53,52),
+		new Point(53,44),
+		new Point(53,40),
+		//need double set of coords due to scene changes
+		new Point(68,56),
+		new Point(68,52),
+		new Point(68,44),
+		new Point(68,40),
 	};
 
 	private static final int[] LIGHTS_PUZZLE_XOR_ARRAY = {

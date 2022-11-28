@@ -50,16 +50,6 @@ public interface TombsOfAmascutConfig extends Config
 		return true;
 	}
 
-	@ConfigItem(
-		keyName = "showUpdateMessages",
-		name = "Show Updates",
-		description = "Opens a panel describing plugin updates after new features are added to the plugin.",
-		position = 6
-	)
-	default boolean showUpdateMessages()
-	{
-		return true;
-	}
 
 	@ConfigSection(
 		name = "Invocation Presets",
@@ -393,23 +383,4 @@ public interface TombsOfAmascutConfig extends Config
 	{
 		return 100;
 	}
-
-	@ConfigItem(
-		keyName = "updateNotifierLastVersion",
-		name = "",
-		description = "",
-		hidden = true
-	)
-	default int updateNotifierLastVersion()
-	{
-		return 0;
-	}
-
-	@ConfigItem(
-		keyName = "updateNotifierLastVersion",
-		name = "",
-		description = "",
-		hidden = true
-	)
-	void updateNotifierLastVersion(int newVersion);
 }
