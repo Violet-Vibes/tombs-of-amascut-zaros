@@ -33,7 +33,7 @@ public class MatchingPuzzleSolver implements PluginLifecycleComponent
 		.put(45369, "Hand") // hand
 		.put(45370, "Star") // star
 		.put(45371, "Bird") // bird
-		.put(45372, "W") // wiggle
+		.put(45372, "Moustache") // wiggle
 		.put(45373, "Boot") // boot
 		.build();
 
